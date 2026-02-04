@@ -1,0 +1,43 @@
+name: "✨ Feature Request"
+description: "새로운 기능을 추가하거나 요구사항을 구현합니다."
+title: "[feat] : "
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 💡 Feature Request
+        기능 구현 요청을 작성합니다. User Story를 포함하면 좋습니다.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 📄 설명 (Description & User Story)
+      description: |
+        어떤 기능인가요? 사용자 입장에서 설명해주세요.
+        예) 사용자는 이메일을 통해 회원가입을 할 수 있다.
+      placeholder: 내용을 입력해주세요.
+    validations:
+      required: true
+
+  - type: textarea
+    id: tasks
+    attributes:
+      label: ✅ 할 일 (To-Do List)
+      description: |
+        구현해야 할 작업을 잘게 쪼개서 체크박스로 작성해주세요.
+        - [ ] 작업 1
+        - [ ] 작업 2
+      placeholder: |
+        - [ ] DTO 생성 및 유효성 검사
+        - [ ] Service 로직 구현
+        - [ ] 테스트 코드 작성
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: 🙋🏻 참고 자료 (References)
+      description: 참고할 문서, 디자인 시안, 관련된 이슈 링크 등을 남겨주세요.
+      placeholder: 관련 스크린샷이나 링크를 첨부해주세요.
