@@ -1,0 +1,41 @@
+name: "🛠️ 대빵언니 그 외 Issue 템플릿"
+description: "기능/버그 외의 작업(CI, 문서, 리팩토링 등)을 등록합니다."
+title: "[type] : "
+body:
+  - type: dropdown
+    id: task-type
+    attributes:
+      label: 🏷️ 작업 종류 (Type)
+      description: 작업의 성격에 맞는 타입을 선택해주세요.
+      options:
+        - chore
+        - ci
+        - docs
+        - refactor
+        - test
+        - style
+        - perf
+        - build
+        - revert
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 📄 작업 내용 (Description)
+      description: |
+        해야 할 작업을 잘게 쪼개서 체크박스로 작성해주세요.
+          - [ ] 작업 1
+          - [ ] 작업 2
+      placeholder: |
+        - [ ] GitHub Actions CI 스크립트 작성
+        - [ ] README.md 업데이트
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: 🙋🏻 참고 자료
+      description: 참고할 링크나 자료가 있다면 적어주세요.

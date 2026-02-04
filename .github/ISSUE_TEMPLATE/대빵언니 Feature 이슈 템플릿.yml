@@ -1,21 +1,22 @@
-name: "✨ Feature Request"
+name: "💪 대빵언니 Feature Issue 템플릿"
 description: "새로운 기능을 추가하거나 요구사항을 구현합니다."
-title: "[feat] : "
+title: "[feature] "
 labels: ["feature"]
 body:
   - type: markdown
     attributes:
       value: |
-        ### 💡 Feature Request
-        기능 구현 요청을 작성합니다. User Story를 포함하면 좋습니다.
+        ### 💡 Feature Template
+        기능 구현 요청을 작성합니다.
 
   - type: textarea
     id: description
     attributes:
       label: 📄 설명 (Description & User Story)
       description: |
-        어떤 기능인가요? 사용자 입장에서 설명해주세요.
+        어떤 기능인지 설명해주세요. 사용자 입장에서 설명해주면 좋습니다.
         예) 사용자는 이메일을 통해 회원가입을 할 수 있다.
+        예) 고객들이 로그인을 해서 서비스를 즐길 수 있는 UI 입니다.
       placeholder: 내용을 입력해주세요.
     validations:
       required: true

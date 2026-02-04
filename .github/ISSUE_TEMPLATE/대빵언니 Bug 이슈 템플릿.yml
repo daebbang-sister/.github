@@ -1,0 +1,37 @@
+name: "🐛 대빵언니 Bug Issue 템플릿"
+description: "발생한 버그를 제보하고 수정을 요청합니다."
+title: "[fix] "
+labels: ["fix"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🚨 Bug Report
+        버그가 발생한 상황을 상세히 기록해주세요.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 📄 버그 설명 (Description)
+      description: 어떤 버그인지 간략하게 설명해주세요.
+      placeholder: 로그인 버튼을 눌렀을 때 404 에러가 발생합니다.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 👣 재현 방법 (Steps to Reproduce)
+      description: 버그를 재현하기 위한 순서를 적어주세요.
+      placeholder: |
+        1. 메인 페이지 접속
+        2. 로그인 버튼 클릭
+        3. 아이디 입력 후 엔터
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 📸 스크린샷 또는 로그 (Screenshots/Logs)
+      description: 에러 로그나 화면 캡처가 있다면 첨부해주세요.
