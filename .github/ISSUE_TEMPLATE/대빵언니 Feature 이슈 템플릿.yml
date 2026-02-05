@@ -1,12 +1,12 @@
-name: "💪 대빵언니 Feature Issue 템플릿"
+name: "💪 대빵언니 FEATURE Issue 템플릿"
 description: "새로운 기능을 추가하거나 요구사항을 구현합니다."
-title: "[feature] "
-labels: ["feature"]
+title: "[FEATURE] "
+labels: ["FEATURE"]
 body:
   - type: markdown
     attributes:
       value: |
-        ### 💡 Feature Template
+        ### 💡 FEATURE Template
         기능 구현 요청을 작성합니다.
 
   - type: textarea

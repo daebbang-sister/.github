@@ -1,12 +1,12 @@
-name: "🐛 대빵언니 Bug Issue 템플릿"
+name: "🐛 대빵언니 BUG Issue 템플릿"
 description: "발생한 버그를 제보하고 수정을 요청합니다."
-title: "[fix] "
-labels: ["fix"]
+title: "[FIX] "
+labels: ["FIX"]
 body:
   - type: markdown
     attributes:
       value: |
-        ### 🚨 Bug Report
+        ### 🚨 BUG Report
         버그가 발생한 상황을 상세히 기록해주세요.
 
   - type: textarea
